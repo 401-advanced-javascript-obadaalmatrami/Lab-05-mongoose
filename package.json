@@ -4,7 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "jest --verbose --coverage  --watch-All"
+        "start": "node index.js",
+        "lint": "eslint **/*.js",
+        "test": "jest --verbose --coverage --watch-All"
     },
     "repository": {
         "type": "git",
@@ -21,7 +23,8 @@
         "@code-fellows/supergoose": "^1.0.1",
         "eslint": "^6.8.0",
         "jest": "^25.1.0",
-        "mongoose": "^5.8.9",
-        "supergoose": "^0.2.6"
+        "mongoose": "^5.8.10",
+        "supergoose": "^0.2.6",
+        "supertest": "^4.0.2"
     }
 }
