@@ -2,23 +2,19 @@
 
 LAB - Class-05-Data Modeling With NoSQL Databases
 Project Name
-Author: Student/Group Name
+Author: obada
 Links and Resources
-submission PR
-ci/cd (GitHub Actions)
-back-end server url (when applicable)
-front-end application (when applicable)
-Setup
-.env requirements (where applicable)
-i.e.
+submission PR (https://github.com/401-advanced-javascript-obadaalmatrami/Lab-05-mongoose/pull/1/commits/e11ddb46219b65770bfb2b79d72aa203e474e948)
+ci/cd (https://github.com/401-advanced-javascript-obadaalmatrami/Lab-05-mongoose/actions)
 
-PORT - Port Number
+
 MONGODB_URI - URL to the running mongo instance/db
+MONGODB_URI = mongodb://localhost:27017/obadalab05
 How to initialize/run your application (where applicable)
-e.g. npm start
+nodemon index.js
 Tests
 How do you run tests?
-Any tests of note?
+npm run test
 Describe any tests that you did not complete, skipped, etc
 UML
 Link to an image of the UML for your application and response to events
