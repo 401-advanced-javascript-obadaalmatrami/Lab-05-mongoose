@@ -1,7 +1,7 @@
   'use strict';
 
   const mongoose = require('mongoose');
-
+  require('dotenv').config();
   const MONGOOSE_URI = 'mongodb://localhost:27017/obadalab05';
 
   mongoose.connect(MONGOOSE_URI, { useUnifiedTopology: true, useNewUrlParser: true });

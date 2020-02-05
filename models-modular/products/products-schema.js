@@ -1,12 +1,12 @@
-'use strict';
+
 
 const mongoose = require('mongoose');
-
-
-const products = mongoose.Schema({
-    _id: { type: String },
-    name: { type: String, required: true },
-    description: { type: String, required: false },
+const schema = require('./products.js');
+const product = mongoose.Schema({
+  category_id: { type: 'string', required: true },
+  price: { type: 'number', required: true },
+  weight: { type: 'number' },
+  quantity_in_stock: { type: 'number', required: true },
 });
 
-module.exports = mongoose.model('products', products);
+module.exports = mongoose.model('product', product);
